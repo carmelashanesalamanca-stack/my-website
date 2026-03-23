@@ -99,3 +99,63 @@ button {
     display: block;
     margin: 20px auto;
 }
+.product-images {
+    display: flex;           /* para magkatabi */
+    justify-content: center; /* center alignment */
+    gap: 5px;               /* space between images */
+    flex-wrap: wrap;         /* para bumaba pag maliit screen */
+}
+
+.product-images img {
+    width: 250px;     /* size ng image */
+    height: auto;
+    border-radius: 10px;
+}
+/* clickable image */
+.clickable {
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.clickable:hover {
+    transform: scale(1.05); /* zoom effect */
+}
+
+/* gallery layout */
+.product-images {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-images img {
+    width: 150px;
+    border-radius: 10px;
+}
+/* clickable image */
+.clickable {
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.clickable:hover {
+    transform: scale(1.05); /* zoom effect */
+}
+
+/* gallery layout */
+.product-images {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-images img {
+    width: 150px;
+    border-radius: 10px;
+}
