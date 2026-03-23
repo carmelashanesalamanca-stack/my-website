@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f2f1; /* light mint green background */
+}
+
+header {
+    background-color: #3eb489; /* mint green header */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section img {
+    width: 50%;
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    background-color: #3eb489; /* mint green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2a7865; /* darker mint green on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2a7865; /* dark mint green footer */
+    color: white;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Product image */
+section#product img {
+    width: 50%; /* make image smaller than section */
+    max-width: 100px; /* maximum width */
+    height: auto; /* maintain aspect ratio */
+    display: block;
+    margin: 0 auto 15px auto; /* center image and add space below */
+    border-radius: 10px;
+}
+img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
